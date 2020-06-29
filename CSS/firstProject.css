@@ -1,0 +1,512 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content{
+    height:600px;
+    background: url("../IMAGES/toddler-boy-with-teddy-bear.jpg") no-repeat center ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+
+nav{
+    background-color: #252E31;
+    color:white;
+    overflow: hidden;
+}
+nav h2{
+    float:left;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+nav h2 mark{
+    background-color: transparent;
+    color:#2ecc71;
+}
+nav ul{
+
+    margin: 24px 30px 0 0;
+    float:right;
+}
+
+nav ul li{
+    padding-right: 20px;
+    display: inline-block;
+}
+nav a{
+    list-style: none;
+}
+.container1{
+    display: inline-flex;
+}
+.container1 div{
+    margin:30px;
+}
+.container1 h2{
+text-transform: uppercase;
+font-weight: 900;
+}
+article{
+    height:650px;
+    background-color: #d3d3d366;
+}
+article .img{
+    width:30%;
+    background: url("../IMAGES/coding-on-laptop.jpg") no-repeat center;
+    background-size: cover;
+    height:650px;
+    float:left;
+} 
+article .right{
+    width: 61%;
+    float: right;
+    padding: 50px 90px 50px 45px;
+}
+article .right .bottom{
+    display: inline-flex;
+    width: 925px;
+}
+article div div div {
+    margin:40px 100px 40px 80px;
+}
+p{
+    color:gray;
+}
+article div div p{
+    margin-bottom: 60px;
+}
+article div div section #pencil{
+    position: absolute;
+    top: 1224px;
+    left: 991px;
+    font-size: 34px;
+    color: #0cc60c;
+}
+article div div section #world{
+    position: absolute;
+    top: 1220px;
+    left: 537px;
+    font-size: 34px;
+    color: #0cc60c;
+}
+
+.skills{
+    background-color: white;
+    margin-top:50px;
+    height: 400px;
+}
+.skills .my-skills{
+    margin: 60px 40px 60px 50px;
+    width: 40%;
+}
+
+/*
+.skills .progress{
+    margin:100px 0 ;
+    width:35%;
+    float:right;
+}
+.progress progress{
+    margin-bottom: 15px;
+}*/
+button{
+    width: 183px;
+    margin: 30px 0 0 40px;
+    border-radius: 0 20px;
+    height: 56px;
+    color: #0cc60c;
+    border: 3px solid#0cc60c;
+}
+button span, label{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;
+}
+article .tcontainer{
+    width:70%;
+    height:70%;
+    margin:0 50px;
+    position: relative;
+    display: table;
+}
+.fcontainer{
+    height: 40%;
+    position: absolute;
+    top: -376px;
+    left: 699px;
+}
+.scontainer{
+    height: 40%;
+    position: absolute;
+    top: -176px;
+    left: 699px;
+}
+
+.tcontainer .g-container{
+    text-align: center;
+    display: table-cell;
+    width:25%;
+    height:50%;
+    margin: 0 100px;
+    vertical-align: middle;
+}
+.fcontainer .g-container:first-of-type .rail{
+    stroke: white;
+}
+.fcontainer .g-container:first-of-type .progress{
+    stroke:#2196F3;
+}
+.fcontainer .g-container:first-of-type .percentage{
+    stroke: white;
+}
+
+.fcontainer .g-container:nth-of-type(2) .rail{
+    stroke: white;
+}
+.fcontainer .g-container:nth-of-type(2) .progress{
+    stroke: #cb0000;
+}
+
+.scontainer .g-container:first-of-type .rail{
+    stroke: #34495e;
+}
+.scontainer .g-container:first-of-type .progress{
+    stroke: #FF9800;
+}
+
+.container .g-container:nth-of-type(2) .rail{
+    stroke: #fff;
+}
+.scontainer .g-container:nth-of-type(2) .progress{
+    stroke: #ffeb3b;
+}
+
+.gauge-container{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+}
+.gauge-container .gauge{
+    display: block;
+    position: relative;
+}
+.gauge-container .gauge circle{
+    stroke-width: 15;
+}
+.gauge-container .gauge .rail{
+    fill:transparent;
+}
+.gauge-container .center{
+    display: inline-block;
+    font-weight:400;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+    transform: translate(-50%,-50%);
+}
+.gauge-container .center .value{
+    font-size: 35px;
+}
+.gauge-container .center .percent-symbol{
+    font-size: 35px;
+}
+.gauge-container .center .percentage{
+    font-size: 35px;
+}
+span .value{
+    font-weight: bold;
+}
+.HTML{
+    position: absolute;
+    font-weight: bold;
+    font-size: 28px;
+    top: 1625px;
+    left: 1024px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+.CSS{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    top: 1623px;
+    left: 1217px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+.ILLUSTRATION{
+    position: absolute;
+    font-weight: bold;
+    font-size: 26px;
+    top: 1815px;
+    left: 986px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+.PHOTOSHOP{
+    position: absolute;
+    font-weight: bold;
+    font-size: 28px;
+    top: 1815px;
+    left: 1160px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+
+/*start resume*/
+.Resume{
+    width: 1200px;
+    height: 100%;
+    padding: 40px 159px;
+    text-align: center;
+    font-size: 25px ;
+}
+.Resume p{
+overflow: hidden ;}
+.Resume button{
+    font-size: 14px;
+    width: 330px;
+}
+.Education{
+    width: 100%;
+    height:100%;
+    position: relative;
+    background-color: white;
+}
+.Education .my-education1{
+    position: absolute;
+    margin: 50px 100px 0 100px;
+    width: 630px;
+}
+.Education .my-education1 p{
+    padding-right: 150px;
+}
+.Education .my-education2{
+    position: absolute;
+    width: 50%;
+    margin: 50px;
+    left: 680px;
+}
+.Education .my-education2 p{
+    padding-right: 100px;
+}
+.Education .my-education2 hr{
+    margin:30px 0;
+    padding-right: 100px;
+}
+.Education .my-education2 button{
+    background-color:#0cc60c ;
+    color: white;
+    text-transform: uppercase;
+    width: 120px;
+}
+.Education h2{
+    text-transform: uppercase;
+}
+.testimonials{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    top:3150px;
+}
+.testimonials p{
+    color:black;
+}
+.portifilio{
+    position: absolute;
+    top: 3247px;
+    left: 473px;
+    height: 116px;
+    text-align: center;
+    background-color: white;
+}
+.portifilio p{color: black;}
+.images{
+    border-radius:15px;
+    display:flex;
+    position: absolute;
+    top: 3360px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.images div{
+    margin:30px;
+    width: 350px;
+    height:350px;
+    border-radius: 15px;
+}
+.img1{
+    background: url("../IMAGES/businessman-on-smartphone.jpg") no-repeat center;
+    background-size: cover;
+}
+.img2{
+    background: url("../IMAGES/coding-on-laptop.jpg") no-repeat center;
+    background-size: cover;
+}
+.img3{
+    background: url("../IMAGES/pexels-photo-3806962.jpeg") no-repeat center;
+    background-size: cover;
+}
+.img4{
+    background: url("../IMAGES/pexels-photo-4100130.jpeg") no-repeat center;
+    background-size: cover;
+}
+.img5{
+    background: url("../IMAGES/photo-1592388892100-7dd535ac8e09.jpg") no-repeat center;
+    background-size: cover;
+}
+.img6{
+    background: url("../IMAGES/photo-1592411261931-a03edd69b423.jpg") no-repeat center;
+    background-size: cover;
+}
+.img7{
+    background: url("../IMAGES/photo-1592455445892-0d0f9693324c.jpg") no-repeat center;
+    background-size: cover;
+}
+.img8{
+    background: url("../IMAGES/toddler-boy-with-teddy-bear.jpg") no-repeat center;
+    background-size: cover;
+}
+.img9{
+    background: url("../IMAGES/design-studio-creativity-ideas-wood-260nw-365852135.webp") no-repeat center;
+    background-size: cover;
+}
+.box{
+    background-color:#252E31 ;
+    height:530px;
+    position: relative;
+    top:2230px;
+}
+.left-box{
+    width:50%;
+    float:left;
+    margin-top: 40px;
+}
+.left-box p,li{
+    padding-right: 160px;
+    color: #d3d3d394;;
+}
+.left-box li{
+    display: inline-block;
+    line-height: 50px;
+}
+.box h2{
+    color:white;
+    text-transform: uppercase;
+}
+.right-box{
+    width: 50%;
+    float: right;
+    margin-top:40px;
+}
+.right-box label{
+    color:white;
+    display: block;
+    margin:30px 0;
+}
+input[name="comment"]{
+    margin: 30px 30px 0 0;
+    width:300px;
+    height:150px;
+}
+footer{
+    text-align: center;
+    background-color: #140c0c;
+    width:100%;
+    padding: 20px 0;
+    color: grey;
+    position: absolute;
+    top: 5137px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer ul li a img{
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+}
+footer li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
