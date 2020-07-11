@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Normalize.css">
     <link rel="stylesheet" href="../CSS/firstProject.css">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    href="../node_modules/animate.css/animate.css"
     />
-    <script src="https://kit.fontawesome.com/be14abca77.js" crossorigin="anonymous"></script>
+    <!--<script src="https://kit.fontawesome.com/be14abca77.js" crossorigin="anonymous"></script>-->
     <title>Template</title>
 </head>
 <body>
@@ -19,9 +18,9 @@
         </header>
     </main>
     <nav>
-        <div  onscroll="" class="container">
-            <h2>Fo<mark>cal</mark></h2>
-            <ul>
+        <div id="nav" class="animate__animated nav container" >
+            <h2 >Fo<mark>cal</mark></h2>
+            <ul >
                 <li>Home</li>
                 <li>About us</li>
                 <li>Skills</li>
@@ -33,31 +32,31 @@
         </div>
     </nav>
     <div class="container">
-        <div class="container1">
-            <div class="div1">
+        <div  class="container1">
+            <div id="values" class=" animate__animated div1">
                 <h2>Values</h2>
                 <p> this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
             </div>
-            <div class="div2">
+            <div id="Goals" class="animate__animated div2">
                 <h2>Goals</h2>
                 <p> this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
             </div>
-            <div class="div3">
+            <div id="Hobbies" class="animate__animated div3">
                 <h2>Hobbies</h2>
                 <p> this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
             </div>
         </div>
     </div>
     <article>
-        <div class="img"></div>
-        <div class="right">
-            <h2>About me</h2>
+        <div id="laptop" class="animate__animated img"></div>
+        <div id="About" class="animate__animated right" >
+            <h2 >About me</h2>
             <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal.</p> <br>
             <p>div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
             <div class="bottom">
                 <div class="bottom-left">
                     <section>
-                        <i id="world" class="fa fa-globe" aria-hidden="true"></i>
+                        <!--<i id="world" class="fa fa-globe" aria-hidden="true"></i>-->  
                         <h2>Web Design</h2>
                         <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
                     </section>
@@ -68,7 +67,7 @@
                 </div>
                 <div class="bottom-right">
                     <section>
-                        <i id="pencil" class="fa fa-pencil" aria-hidden="true"></i>
+                        <!--<i id="pencil" class="fa fa-pencil" aria-hidden="true"></i>-->  
                         <h2> Graphic Design</h2>
                         <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
                     </section>
@@ -82,18 +81,18 @@
     </article>
     <div class="container">
         <article class="skills">
-            <section class="my-skills">
+            <section  class=" my-skills">
                 <h2>My Skills</h2>
             <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal.</p> <br>
             <p>div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
-            <button name=" Contact Me"><span> Contact Me</span></button>
+            <button id="button" class="animate__animated" name=" Contact Me"><span> Contact Me</span></button>
             </section>
             <label class="HTML">HTML</label>
             <label class="CSS">CSS</label>
             <label class="ILLUSTRATION">ILLUS.</label>
             <label class="PHOTOSHOP">PHOTOSHOP</label>
     
-            <div class="tcontainer">
+            <div id="skills" class="animate__animated tcontainer">
                 <div class="fcontainer">
                     <div class="g-container ">
                         <div class="gauge-container">
@@ -160,7 +159,7 @@
         <article class="Resume">
             <h2>Resume</h2>
             <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div  div this is a normal div this is a normal div this is a normal div this is a normal.</p> <br>
-            <button name=" Resume"><span> Download my Resume</span></button>
+            <button id="resume" class="animate__animated" name=" Resume"><span> Download my Resume</span></button>
         </article>
     <div class="container">
         <article class="Education">
@@ -194,7 +193,7 @@
                 <h2>Portifilio</h2>
                 <p>this is a normal div this is a normal div this is a normal div this is a normal div this is a normal div</p>
             </article>
-            <article class="images">
+            <article id="images" class="animte__animated images">
                 <div class="img1"></div>
                 <div class="img2"></div>
                 <div class="img3"></div>
@@ -243,5 +242,6 @@
             </ul>
         
     </footer>
+    <script src="../JS/index.js"></script>
 </body>
 </html>

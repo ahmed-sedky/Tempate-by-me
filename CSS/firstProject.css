@@ -25,6 +25,13 @@ nav{
     background-color: #252E31;
     color:white;
     overflow: hidden;
+    transition:all 10s ease-in-out;
+}
+.nav{
+    -webkit-animation: fadeInRight 3s ease ;
+    -moz-animation: fadeInRight 3s ease;
+    -o-animation: fadeInRight 3s ease;
+    animation: fadeInRight 3s ease   ;
 }
 nav h2{
     float:left;
@@ -50,6 +57,7 @@ nav a{
 }
 .container1{
     display: inline-flex;
+    transition:all 10s ease-in-out;
 }
 .container1 div{
     margin:30px;
@@ -58,9 +66,31 @@ nav a{
 text-transform: uppercase;
 font-weight: 900;
 }
+.div3{
+    -webkit-animation: fadeInRight 3s ease ;
+    -moz-animation: fadeInRight 3s ease;
+    -o-animation: fadeInRight 3s ease;
+    animation: fadeInRight 3s ease   ;
+}
+/*
+.div2{
+    -webkit-animation: fadeInDown 3s ease ;
+    -moz-animation: fadeInDown 3s ease;
+    -o-animation: fadeInDown 3s ease;
+    animation: fadeInDown 3s ease   ;
+}
+*/
+.div1{
+    -webkit-animation: fadeInLeft 3s ease ;
+    -moz-animation: fadeInLeft 3s ease;
+    -o-animation: fadeInLeft 3s ease;
+    animation: fadeInLeft 3s ease   ;
+}
 article{
     height:650px;
     background-color: #d3d3d366;
+    transition:all 10s ease-in-out;
+
 }
 article .img{
     width:30%;
@@ -106,6 +136,7 @@ article div div section #world{
     background-color: white;
     margin-top:50px;
     height: 400px;
+    transition:all 10s ease-in-out;
 }
 .skills .my-skills{
     margin: 60px 40px 60px 50px;
@@ -330,6 +361,7 @@ span .value{
     padding: 40px 159px;
     text-align: center;
     font-size: 25px ;
+    transition:all 10s ease-in-out;
 }
 .Resume p{
 overflow: hidden ;}
@@ -399,6 +431,7 @@ overflow: hidden ;}
     top: 3360px;
     flex-wrap: wrap;
     background-color: white;
+    transition:all 10s ease-in-out;
 }
 .images div{
     margin:30px;
@@ -505,7 +538,48 @@ footer li{
 
 
 
-
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 3s ease;
+    -o-animation: fadeInLeft 3s ease;
+    -moz-animation: fadeInLeft 3s ease;
+    animation: fadeInLeft 3s ease   ;
+}
+.fadeInRight{
+    -webkit-animation: fadeInRight 3s ease ;
+    -moz-animation: fadeInRight 3s ease;
+    -o-animation: fadeInRight 3s ease;
+    animation: fadeInRight 3s ease   ;
+}
+.rubberBand{
+    -webkit-animation: rubberBand 3s ease;
+    -moz-animation: rubberBand 3s ease;
+    -o-animation: rubberBand 3s ease;
+    animation: rubberBand 3s ease;
+}
+.fadeInDown{
+    -webkit-animation: fadeInDown 3s ease;
+    -moz-animation: fadeInDown 3s ease;
+    -o-animation: fadeInDown 3s ease;
+    animation: fadeInDown 3s ease;
+}
+.flash{
+    -webkit-animation: flash 3s ease;
+    -moz-animation: flash 3s ease;
+    -o-animation: flash 3s ease;
+    animation: flash 3s ease;
+}
+.bounce{
+    -webkit-animation: bounce 3s ease;
+    -moz-animation: bounce 3s ease;
+    -o-animation: bounce 3s ease;
+    animation: bounce 3s ease;
+}
+.heartBeat {
+    -webkit-animation: heartBeat 3s ease;
+    -moz-animation: heartBeat 3s ease;
+    -o-animation: heartBeat 3s ease;
+    animation: heartBeat 3s ease;
+}
 
 
 
