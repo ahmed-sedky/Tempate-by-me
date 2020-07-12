@@ -3,7 +3,6 @@ var myDiv1 =document.getElementById('skills'),
     myDiv3 =document.getElementById('About'),
     myDiv4 =document.getElementById('button');
     myDiv5 =document.getElementById('resume');
-    myDiv6 =document.getElementById('Images');
     window.onscroll = function () {
     "use strict";
         if (document.documentElement.scrollTop >= myDiv1.offsetTop -700 ) { //offsetTop returns the top position in pixels
@@ -21,8 +20,12 @@ var myDiv1 =document.getElementById('skills'),
         if (document.documentElement.scrollTop >= myDiv5.offsetTop -550 ) { 
             myDiv5.classList.add('bounce');
         }
-        if (document.documentElement.scrollTop >= myDiv6.offsetTop  ) { 
-            myDiv6.classList.add('heartBeat');
-        }
+        
 };
+var myLoader = document.querySelector('.loader-wrapper');
+//console.log(myLoader.parentElement);
+window.addEventListener('load',function(){
+    'use strict';
+    myLoader.classList.add('loader-wrapper-finish');
+});
 

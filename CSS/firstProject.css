@@ -25,13 +25,13 @@ nav{
     background-color: #252E31;
     color:white;
     overflow: hidden;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 }
 .nav{
-    -webkit-animation: fadeInRight 3s ease ;
-    -moz-animation: fadeInRight 3s ease;
-    -o-animation: fadeInRight 3s ease;
-    animation: fadeInRight 3s ease   ;
+    -webkit-animation: fadeInRight 3s linear ;
+    -moz-animation: fadeInRight 3s linear;
+    -o-animation: fadeInRight 3s linear;
+    animation: fadeInRight 3s linear   ;
 }
 nav h2{
     float:left;
@@ -57,7 +57,7 @@ nav a{
 }
 .container1{
     display: inline-flex;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 }
 .container1 div{
     margin:30px;
@@ -67,29 +67,29 @@ text-transform: uppercase;
 font-weight: 900;
 }
 .div3{
-    -webkit-animation: fadeInRight 3s ease ;
-    -moz-animation: fadeInRight 3s ease;
-    -o-animation: fadeInRight 3s ease;
-    animation: fadeInRight 3s ease   ;
+    -webkit-animation: fadeInRight 3s linear ;
+    -moz-animation: fadeInRight 3s linear;
+    -o-animation: fadeInRight 3s linear;
+    animation: fadeInRight 3s linear   ;
 }
 /*
 .div2{
-    -webkit-animation: fadeInDown 3s ease ;
-    -moz-animation: fadeInDown 3s ease;
-    -o-animation: fadeInDown 3s ease;
-    animation: fadeInDown 3s ease   ;
+    -webkit-animation: fadeInDown 3s linear ;
+    -moz-animation: fadeInDown 3s linear;
+    -o-animation: fadeInDown 3s linear;
+    animation: fadeInDown 3s linear   ;
 }
 */
 .div1{
-    -webkit-animation: fadeInLeft 3s ease ;
-    -moz-animation: fadeInLeft 3s ease;
-    -o-animation: fadeInLeft 3s ease;
-    animation: fadeInLeft 3s ease   ;
+    -webkit-animation: fadeInLeft 3s linear ;
+    -moz-animation: fadeInLeft 3s linear;
+    -o-animation: fadeInLeft 3s linear;
+    animation: fadeInLeft 3s linear   ;
 }
 article{
     height:650px;
     background-color: #d3d3d366;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 
 }
 article .img{
@@ -136,7 +136,7 @@ article div div section #world{
     background-color: white;
     margin-top:50px;
     height: 400px;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 }
 .skills .my-skills{
     margin: 60px 40px 60px 50px;
@@ -361,7 +361,7 @@ span .value{
     padding: 40px 159px;
     text-align: center;
     font-size: 25px ;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 }
 .Resume p{
 overflow: hidden ;}
@@ -431,13 +431,19 @@ overflow: hidden ;}
     top: 3360px;
     flex-wrap: wrap;
     background-color: white;
-    transition:all 10s ease-in-out;
+    transition:all 10s linear-in-out;
 }
 .images div{
     margin:30px;
     width: 350px;
     height:350px;
     border-radius: 15px;
+}
+.images div:hover{
+    -webkit-animation: pulse 3s linear;
+    -moz-animation: pulse 3s linear;
+    -o-animation: pulse 3s linear;
+    animation: pulse 3s linear;
 }
 .img1{
     background: url("../IMAGES/businessman-on-smartphone.jpg") no-repeat center;
@@ -539,48 +545,133 @@ footer li{
 
 
 .fadeInLeft{
-    -webkit-animation: fadeInLeft 3s ease;
-    -o-animation: fadeInLeft 3s ease;
-    -moz-animation: fadeInLeft 3s ease;
-    animation: fadeInLeft 3s ease   ;
+    -webkit-animation: fadeInLeft 3s linear;
+    -o-animation: fadeInLeft 3s linear;
+    -moz-animation: fadeInLeft 3s linear;
+    animation: fadeInLeft 3s linear   ;
 }
 .fadeInRight{
-    -webkit-animation: fadeInRight 3s ease ;
-    -moz-animation: fadeInRight 3s ease;
-    -o-animation: fadeInRight 3s ease;
-    animation: fadeInRight 3s ease   ;
+    -webkit-animation: fadeInRight 3s linear ;
+    -moz-animation: fadeInRight 3s linear;
+    -o-animation: fadeInRight 3s linear;
+    animation: fadeInRight 3s linear   ;
 }
 .rubberBand{
-    -webkit-animation: rubberBand 3s ease;
-    -moz-animation: rubberBand 3s ease;
-    -o-animation: rubberBand 3s ease;
-    animation: rubberBand 3s ease;
+    -webkit-animation: rubberBand 3s linear;
+    -moz-animation: rubberBand 3s linear;
+    -o-animation: rubberBand 3s linear;
+    animation: rubberBand 3s linear;
 }
 .fadeInDown{
-    -webkit-animation: fadeInDown 3s ease;
-    -moz-animation: fadeInDown 3s ease;
-    -o-animation: fadeInDown 3s ease;
-    animation: fadeInDown 3s ease;
+    -webkit-animation: fadeInDown 3s linear;
+    -moz-animation: fadeInDown 3s linear;
+    -o-animation: fadeInDown 3s linear;
+    animation: fadeInDown 3s linear;
 }
 .flash{
-    -webkit-animation: flash 3s ease;
-    -moz-animation: flash 3s ease;
-    -o-animation: flash 3s ease;
-    animation: flash 3s ease;
+    -webkit-animation: flash 3s linear;
+    -moz-animation: flash 3s linear;
+    -o-animation: flash 3s linear;
+    animation: flash 3s linear;
 }
 .bounce{
-    -webkit-animation: bounce 3s ease;
-    -moz-animation: bounce 3s ease;
-    -o-animation: bounce 3s ease;
-    animation: bounce 3s ease;
+    -webkit-animation: bounce 3s linear;
+    -moz-animation: bounce 3s linear;
+    -o-animation: bounce 3s linear;
+    animation: bounce 3s linear;
 }
 .heartBeat {
-    -webkit-animation: heartBeat 3s ease;
-    -moz-animation: heartBeat 3s ease;
-    -o-animation: heartBeat 3s ease;
-    animation: heartBeat 3s ease;
+    -webkit-animation: heartBeat 3s linear;
+    -moz-animation: heartBeat 3s linear;
+    -o-animation: heartBeat 3s linear;
+    animation: heartBeat 3s linear;
+}
+.pulse{
+    -webkit-animation: pulse 3s linear;
+    -moz-animation: pulse 3s linear;
+    -o-animation: pulse 3s linear;
+    animation: pulse 3s linear;
 }
 
+.loader-wrapper{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items:center;
+    transition: all 0.5s ease;
+}
+.loader-wrapper-finish{
+    opacity: 0;
+    pointer-events: none;
+}
+.snake{
+    position: relative;
+}
+.snake span{
+    display: block;
+    position: absolute;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom:0;
+    background-color: black;
+    -webkit-animation: waving 1.5s infinite linear;
+    animation: snake 1.5s infinite linear;
+    opacity:.5;
+}
+
+.snake span:nth-child(2){
+    animation-delay: .2s;
+    left:40px;
+}
+.snake span:nth-child(3){
+    animation-delay: .4s;
+    left:80px;
+}
+.snake span:nth-child(4){
+    animation-delay: .6s;
+    left:120px;
+}
+.snake span:nth-child(5){
+    animation-delay: .8s;
+    left:160px;
+}
+.snake span:nth-child(6){
+    animation-delay: 1s;
+    left:200px;
+}
+.snake span:nth-child(7){
+    animation-delay: 1.2s;
+    left:240px;
+}
+.snake span:last-child{
+    animation-delay: 1.4s;
+    left:280px;
+}
+@keyframes snake{
+    0%{
+        opacity: 0.3;
+        transform:translateY(0);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    }
+    50%{
+        opacity: 1;
+        transform:translateY(-10px);
+        background-color: red;
+        box-shadow: 0 20px 3px rgba(0, 0, 0, 0.05);
+    }
+    100%{
+        opacity: 0.3;
+        transform:translateY(0);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    }
+}
 
 
 
